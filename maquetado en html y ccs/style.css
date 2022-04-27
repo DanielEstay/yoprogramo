@@ -1,0 +1,24 @@
+* {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+  animation-name: dropHeader;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 0.75s;
+}
+/*header {
+  padding: 16px, 16px, 16px, 16px px;
+  background-color: #8eb587;
+  width: 1280px;
+  height: 32px;
+}
+*/
