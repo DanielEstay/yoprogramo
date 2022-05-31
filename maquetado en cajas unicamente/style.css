@@ -21,57 +21,59 @@ header {
   z-index: 20;
 }
 
-#menu {
+#menu-icono {
+  display: flex;
+  flex-direction: row;
   position: absolute;
-  width: 32px;
-  height: 21px;
-  left: 28px;
-  top: 10.5px;
+  left: 32px;
+  top: 4px;
+  text-align: center;
+  justify-content: center;
+}
+#menu {
+  position: relative;
+  padding: 8px;
+
   /*z-index: 20;
 }*/
 }
 
 #argentinaprograma {
   position: relative;
-  width: 46px;
-  height: 30px;
-  left: 74px;
-  top: 5px;
-  background: url(..images/icono_argentina_programa.png); /*aca va la imagen pero no se cargarlo*/
+
+  background: url(../Argentina\ programa.ico); /*aca va la imagen pero no se cargarlo*/
   border-radius: 5px;
   z-index: 30;
+  object-fit: scale-down;
+  padding: 8px;
 }
 
-#button-face {
+#redes {
+  display: flex;
+  right: 32px;
+  top: 4px;
+  flex-direction: row;
   position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 972px;
-  top: 11px;
+  text-align: center;
+  justify-content: center;
+}
+#button-face {
+  position: relative;
+  padding: 8px;
 }
 
 #button-insta {
-  position: absolute;
-  width: 24px;
-  height: 18px;
-  left: 1013px;
-  top: 11px;
+  position: relative;
+  padding: 8px;
 }
 
 #button-YouTube {
-  position: absolute;
-  width: 23px;
-  height: 15px;
-  left: 1056px;
-  top: 11px;
+  position: relative;
+  padding: 8px;
 }
 
 #login {
-  position: absolute;
-  width: 132.41px;
-  height: 19.8px;
-  left: 1122px;
-  top: 10px;
+  position: relative;
   background: #b08002;
   color: #fff;
   border: none;
@@ -79,6 +81,8 @@ header {
   text-align: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
+  padding: 8px;
+  margin: 4px, 8px, 4px, 8px;
 }
 
 #banner {
